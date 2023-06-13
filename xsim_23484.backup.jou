@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Jun  9 14:54:27 2023
+# Process ID: 23484
+# Current directory: D:/VITISplay/using_axi_master/vitis1/solution1/sim/verilog
+# Command line: xsim.exe -source {xsim.dir/example/xsim_script.tcl}
+# Log file: D:/VITISplay/using_axi_master/vitis1/solution1/sim/verilog/xsim.log
+# Journal file: D:/VITISplay/using_axi_master/vitis1/solution1/sim/verilog\xsim.jou
+# Running On: Hemanth, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16914 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/example/xsim_script.tcl
+open_wave_config example_dataflow_ana.wcfg
+source example.tcl
+close_sim

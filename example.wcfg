@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="example.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_dataflow_monitor_sv " />
+            <top_module name="apatb_example_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="13.210085 us"></ZoomEndTime>
+      <Cursor1Time time="0.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="HLS Process Summary Group" type="group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_example_top/AESL_inst_example//AESL_inst_example_activity" type="group">
+         <obj_property name="label">AESL_inst_example_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_example_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_example_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_example_top/AESL_inst_example//AESL_inst_example_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_example_top/AESL_inst_example//AESL_inst_example_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_example_top/AESL_inst_example//AESL_inst_example_activity.dataflowTxTooltipData</obj_property>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/grp_example_Pipeline_1_fu_110_activity" type="group">
+            <obj_property name="label">grp_example_Pipeline_1_fu_110_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_example_Pipeline_1_fu_110_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_example_Pipeline_1_fu_110_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/grp_example_Pipeline_1_fu_110_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/grp_example_Pipeline_1_fu_110_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/grp_example_Pipeline_1_fu_110_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/grp_example_Pipeline_2_fu_118_activity" type="group">
+            <obj_property name="label">grp_example_Pipeline_2_fu_118_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_example_Pipeline_2_fu_118_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_example_Pipeline_2_fu_118_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/grp_example_Pipeline_2_fu_118_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/grp_example_Pipeline_2_fu_118_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/grp_example_Pipeline_2_fu_118_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity" type="group">
+            <obj_property name="label">grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/grp_example_Pipeline_4_fu_132_activity" type="group">
+            <obj_property name="label">grp_example_Pipeline_4_fu_132_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_example_Pipeline_4_fu_132_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_example_Pipeline_4_fu_132_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/grp_example_Pipeline_4_fu_132_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/grp_example_Pipeline_4_fu_132_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/grp_example_Pipeline_4_fu_132_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/grp_example_Pipeline_5_fu_140_activity" type="group">
+            <obj_property name="label">grp_example_Pipeline_5_fu_140_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_example_Pipeline_5_fu_140_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_example_Pipeline_5_fu_140_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/grp_example_Pipeline_5_fu_140_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/grp_example_Pipeline_5_fu_140_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/grp_example_Pipeline_5_fu_140_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/apatb_example_top/AESL_inst_example/AESL_inst_example_activity" type="protoinst">
+      <obj_property name="ElementShortName">AESL_inst_example_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_example_activity</obj_property>
+   </wvobject>
+   <wvobject fp_name="AESL_inst_example_group" type="group">
+      <obj_property name="label">AESL_inst_example</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/grp_example_Pipeline_1_fu_110_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_example_Pipeline_1_fu_110_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_example_Pipeline_1_fu_110_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/grp_example_Pipeline_2_fu_118_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_example_Pipeline_2_fu_118_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_example_Pipeline_2_fu_118_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/grp_example_Pipeline_4_fu_132_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_example_Pipeline_4_fu_132_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_example_Pipeline_4_fu_132_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/grp_example_Pipeline_5_fu_140_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_example_Pipeline_5_fu_140_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_example_Pipeline_5_fu_140_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="AESL_inst_example_Handshake_group" type="group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_example_Pipeline_1_fu_110_group" type="group">
+         <obj_property name="label">grp_example_Pipeline_1_fu_110</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_example_Pipeline_1_fu_110_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_1_fu_110/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_example_Pipeline_2_fu_118_group" type="group">
+         <obj_property name="label">grp_example_Pipeline_2_fu_118</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_example_Pipeline_2_fu_118_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_2_fu_118/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_group" type="group">
+         <obj_property name="label">grp_example_Pipeline_VITIS_LOOP_57_1_fu_126</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_VITIS_LOOP_57_1_fu_126/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_example_Pipeline_4_fu_132_group" type="group">
+         <obj_property name="label">grp_example_Pipeline_4_fu_132</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_example_Pipeline_4_fu_132_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_4_fu_132/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_example_Pipeline_5_fu_140_group" type="group">
+         <obj_property name="label">grp_example_Pipeline_5_fu_140</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_example_Pipeline_5_fu_140_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/grp_example_Pipeline_5_fu_140/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group92" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group93" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group94" type="group">
+            <obj_property name="label">b_offset(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group95" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group96" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_b_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group97" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_b_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_b_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_b_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group143" type="group">
+            <obj_property name="label">a_offset(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group144" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group145" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_a_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group146" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/AESL_inst_example/m_axi_a_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_a_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_a_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group192" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group193" type="group">
+            <obj_property name="label">a_offset__b_offset(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_BRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_BREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_BVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_RRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_RDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_RREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_RVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_ARREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_ARVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_ARADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_control_ARADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_WSTRB" type="array">
+               <obj_property name="ElementShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_WDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_WREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_WVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_AWREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_AWVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/AESL_inst_example/s_axi_control_AWADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_control_AWADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group211" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group216" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group218" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_example_top/AESL_inst_example/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group220" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group221" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group222" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group223" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/LENGTH_a_offset" type="array">
+               <obj_property name="ElementShortName">LENGTH_a_offset[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_a_offset[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/LENGTH_b_offset" type="array">
+               <obj_property name="ElementShortName">LENGTH_b_offset[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_b_offset[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/LENGTH_a" type="array">
+               <obj_property name="ElementShortName">LENGTH_a[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_a[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/LENGTH_b" type="array">
+               <obj_property name="ElementShortName">LENGTH_b[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_b[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group231" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group232" type="group">
+            <obj_property name="label">b_offset(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group233" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/b_RRESP" type="array">
+                  <obj_property name="ElementShortName">b_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_RUSER" type="array">
+                  <obj_property name="ElementShortName">b_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_RID" type="array">
+                  <obj_property name="ElementShortName">b_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_RDATA" type="array">
+                  <obj_property name="ElementShortName">b_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARUSER" type="array">
+                  <obj_property name="ElementShortName">b_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARREGION" type="array">
+                  <obj_property name="ElementShortName">b_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARQOS" type="array">
+                  <obj_property name="ElementShortName">b_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARPROT" type="array">
+                  <obj_property name="ElementShortName">b_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">b_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">b_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARBURST" type="array">
+                  <obj_property name="ElementShortName">b_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">b_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARLEN" type="array">
+                  <obj_property name="ElementShortName">b_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARID" type="array">
+                  <obj_property name="ElementShortName">b_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARADDR" type="array">
+                  <obj_property name="ElementShortName">b_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group234" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/b_BUSER" type="array">
+                  <obj_property name="ElementShortName">b_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_BID" type="array">
+                  <obj_property name="ElementShortName">b_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_BRESP" type="array">
+                  <obj_property name="ElementShortName">b_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_WUSER" type="array">
+                  <obj_property name="ElementShortName">b_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_WID" type="array">
+                  <obj_property name="ElementShortName">b_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_WSTRB" type="array">
+                  <obj_property name="ElementShortName">b_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_WDATA" type="array">
+                  <obj_property name="ElementShortName">b_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWUSER" type="array">
+                  <obj_property name="ElementShortName">b_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWREGION" type="array">
+                  <obj_property name="ElementShortName">b_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWQOS" type="array">
+                  <obj_property name="ElementShortName">b_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWPROT" type="array">
+                  <obj_property name="ElementShortName">b_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">b_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">b_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWBURST" type="array">
+                  <obj_property name="ElementShortName">b_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">b_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWLEN" type="array">
+                  <obj_property name="ElementShortName">b_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWID" type="array">
+                  <obj_property name="ElementShortName">b_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWADDR" type="array">
+                  <obj_property name="ElementShortName">b_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">b_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group235" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/b_BREADY" type="logic">
+                  <obj_property name="ElementShortName">b_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">b_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_BVALID" type="logic">
+                  <obj_property name="ElementShortName">b_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">b_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_RLAST" type="logic">
+                  <obj_property name="ElementShortName">b_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">b_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_RREADY" type="logic">
+                  <obj_property name="ElementShortName">b_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">b_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_RVALID" type="logic">
+                  <obj_property name="ElementShortName">b_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">b_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">b_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">b_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">b_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">b_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_WLAST" type="logic">
+                  <obj_property name="ElementShortName">b_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">b_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_WREADY" type="logic">
+                  <obj_property name="ElementShortName">b_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">b_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_WVALID" type="logic">
+                  <obj_property name="ElementShortName">b_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">b_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">b_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">b_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/b_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">b_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">b_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group281" type="group">
+            <obj_property name="label">a_offset(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group282" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/a_RRESP" type="array">
+                  <obj_property name="ElementShortName">a_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_RUSER" type="array">
+                  <obj_property name="ElementShortName">a_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_RID" type="array">
+                  <obj_property name="ElementShortName">a_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_RDATA" type="array">
+                  <obj_property name="ElementShortName">a_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARUSER" type="array">
+                  <obj_property name="ElementShortName">a_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARREGION" type="array">
+                  <obj_property name="ElementShortName">a_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARQOS" type="array">
+                  <obj_property name="ElementShortName">a_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARPROT" type="array">
+                  <obj_property name="ElementShortName">a_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">a_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">a_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARBURST" type="array">
+                  <obj_property name="ElementShortName">a_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">a_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARLEN" type="array">
+                  <obj_property name="ElementShortName">a_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARID" type="array">
+                  <obj_property name="ElementShortName">a_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARADDR" type="array">
+                  <obj_property name="ElementShortName">a_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group283" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/a_BUSER" type="array">
+                  <obj_property name="ElementShortName">a_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_BID" type="array">
+                  <obj_property name="ElementShortName">a_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_BRESP" type="array">
+                  <obj_property name="ElementShortName">a_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_WUSER" type="array">
+                  <obj_property name="ElementShortName">a_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_WID" type="array">
+                  <obj_property name="ElementShortName">a_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_WSTRB" type="array">
+                  <obj_property name="ElementShortName">a_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_WDATA" type="array">
+                  <obj_property name="ElementShortName">a_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWUSER" type="array">
+                  <obj_property name="ElementShortName">a_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWREGION" type="array">
+                  <obj_property name="ElementShortName">a_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWQOS" type="array">
+                  <obj_property name="ElementShortName">a_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWPROT" type="array">
+                  <obj_property name="ElementShortName">a_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">a_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">a_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWBURST" type="array">
+                  <obj_property name="ElementShortName">a_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">a_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWLEN" type="array">
+                  <obj_property name="ElementShortName">a_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWID" type="array">
+                  <obj_property name="ElementShortName">a_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWADDR" type="array">
+                  <obj_property name="ElementShortName">a_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">a_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group284" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_example_top/a_BREADY" type="logic">
+                  <obj_property name="ElementShortName">a_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">a_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_BVALID" type="logic">
+                  <obj_property name="ElementShortName">a_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">a_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_RLAST" type="logic">
+                  <obj_property name="ElementShortName">a_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">a_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_RREADY" type="logic">
+                  <obj_property name="ElementShortName">a_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">a_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_RVALID" type="logic">
+                  <obj_property name="ElementShortName">a_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">a_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">a_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">a_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">a_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">a_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_WLAST" type="logic">
+                  <obj_property name="ElementShortName">a_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">a_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_WREADY" type="logic">
+                  <obj_property name="ElementShortName">a_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">a_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_WVALID" type="logic">
+                  <obj_property name="ElementShortName">a_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">a_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">a_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">a_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_example_top/a_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">a_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">a_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group330" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group331" type="group">
+            <obj_property name="label">a_offset__b_offset(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_example_top/control_BRESP" type="array">
+               <obj_property name="ElementShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_BREADY" type="logic">
+               <obj_property name="ElementShortName">control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_BVALID" type="logic">
+               <obj_property name="ElementShortName">control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_RRESP" type="array">
+               <obj_property name="ElementShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_RDATA" type="array">
+               <obj_property name="ElementShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_RREADY" type="logic">
+               <obj_property name="ElementShortName">control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_RVALID" type="logic">
+               <obj_property name="ElementShortName">control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_ARREADY" type="logic">
+               <obj_property name="ElementShortName">control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_ARVALID" type="logic">
+               <obj_property name="ElementShortName">control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_ARADDR" type="array">
+               <obj_property name="ElementShortName">control_ARADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">control_ARADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_WSTRB" type="array">
+               <obj_property name="ElementShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_WDATA" type="array">
+               <obj_property name="ElementShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_WREADY" type="logic">
+               <obj_property name="ElementShortName">control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_WVALID" type="logic">
+               <obj_property name="ElementShortName">control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_AWREADY" type="logic">
+               <obj_property name="ElementShortName">control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_AWVALID" type="logic">
+               <obj_property name="ElementShortName">control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_example_top/control_AWADDR" type="array">
+               <obj_property name="ElementShortName">control_AWADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">control_AWADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
