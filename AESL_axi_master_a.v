@@ -195,8 +195,8 @@ reg    [31 : 0] BRESP_counter = 0;
 
 reg [a_DATA_BITWIDTH - 1:0] RDATA_tmp = 0;
 reg [2 - 1:0] RRESP_tmp = 0;
-reg RLAST_tmp = 0;
-reg RVALID_tmp = 0;
+reg RLAST_tmp;
+reg RVALID_tmp ;
 reg [a_ID_BITWIDTH - 1 : 0] RID_tmp = 0;
 reg [a_DATA_BITWIDTH - 1 : 0] a_mem_0 [0: a_mem_depth - 1] = '{default : 'h0}; 
 reg [a_DATA_BITWIDTH - 1 : 0] a_mem_1 [0: a_mem_depth - 1] = '{default : 'h0}; 
@@ -703,7 +703,14 @@ initial begin : AR_request_proc
                             2 : RDATA_tmp <= a_mem_2[FIFO_AR_req_ADDR_tmp / data_byte_size +   counter] ;
                             default: $display("The page_num of AXI read is not valid!");
                         endcase
+                        
                     RVALID_tmp <= 1;
+                    //added code
+                   repeat(4) @(posedge clk);
+                   RVALID_tmp <= 0;
+                   repeat(4) @(posedge clk);
+                    RVALID_tmp <= 1;
+                    //added code end
                     RID_tmp <= FIFO_AR_req_ID_tmp;
                     RRESP_tmp <= 0;
                     if (counter === input_length ) begin
@@ -713,9 +720,17 @@ initial begin : AR_request_proc
                     end
                         
                     @(posedge clk);
-                    if (RVALID_tmp && TRAN_a_RREADY) begin
+                    if (RVALID_tmp && TRAN_a_RREADY) 
+                    begin
                         counter = counter + 1;
                     end 
+                    //added code
+                   else
+                   if(RVALID_tmp ==0)
+                    begin
+                    counter <= counter;
+                    end
+                    //added code end
                 end
                 RVALID_tmp <= 0;
                 RLAST_tmp <= 0;
@@ -736,12 +751,25 @@ initial begin : AR_request_proc
                             default: $display("The page_num of AXI read is not valid!");
                         endcase
                     RVALID_tmp <= 1;
+                    //added code end
+                  repeat(4) @(posedge clk);
+                   RVALID_tmp <= 0;
+                   repeat(4) @(posedge clk);
+                    RVALID_tmp <= 1;
+                    //added code end
                     RRESP_tmp <= 0;
                     RLAST_tmp <= 1;
                     @(posedge clk);
                     if (RVALID_tmp && TRAN_a_RREADY) begin
                         counter = counter + 1;
                     end 
+                    //added code end
+                     else
+                    if(RVALID_tmp ==0)
+                    begin
+                    counter <= counter;
+                    end
+                    //added code end
                 end
                 RVALID_tmp <= 0;
                 RLAST_tmp <= 0;
