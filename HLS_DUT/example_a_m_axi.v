@@ -547,7 +547,7 @@ module example_a_m_axi_load
         wire                        ready_for_data;
 
         reg  [BUS_DATA_WIDTH-1 : 0] data_buf;
-        reg                         data_valid_1;
+        reg                         data_valid;
 
         reg  [USER_RFIFONUM_WIDTH-1:0] rdata_nvalid; 
         reg  [SPLIT_ALIGN : 0]      data_nvalid;
@@ -588,10 +588,10 @@ module example_a_m_axi_load
         assign next_beat        = last_split;
 
         assign out_HLS_RDATA    = data_buf[USER_DW-1 : 0];
-        assign out_HLS_RVALID   = data_valid_1;
+        assign out_HLS_RVALID   = data_valid;
         assign out_HLS_RFIFONUM = rdata_nvalid + data_nvalid;
 
-        assign ready_for_data   = ~data_valid_1 | in_HLS_RREADY;
+        assign ready_for_data   = ~data_valid | in_HLS_RREADY;
         assign first_data       = first_beat && beat_valid && offset_valid;
         assign last_data        = last_beat && beat_valid && offset_valid;
 
@@ -644,19 +644,12 @@ module example_a_m_axi_load
         always @(posedge ACLK)
         begin
             if (ARESET)
-                data_valid_1 <= 1'b0;
+                data_valid <= 1'b0;
             else if (ACLK_EN) begin
                 if (first_split)
-                begin
-                    data_valid_1 = 1'b1;
-              @(posedge ACLK)
-              data_valid_1 = 1'b0;
-              repeat(5)@(posedge ACLK)
-              data_valid_1 = 1'b1;
-              end
-
+                    data_valid <= 1'b1;
                 else if (~(first_split || next_split) && ready_for_data)
-                    data_valid_1 <= 1'b0;
+                    data_valid <= 1'b0;
             end
         end
 
@@ -693,7 +686,7 @@ module example_a_m_axi_load
             PAD_ALIGN       = log2(TOTAL_PADS);
 
         reg [USER_DATA_WIDTH-1 : 0] data_buf;
-        reg                         data_valid_1;
+        reg                         data_valid;
         reg [PAD_ALIGN:0]           data_nvalid;
         wire                        ready_for_data;
 
@@ -708,9 +701,9 @@ module example_a_m_axi_load
         assign next_beat        = next_pad;
         
         assign out_HLS_RDATA    = data_buf[USER_DW-1 : 0];
-        assign out_HLS_RVALID   = data_valid_1;
+        assign out_HLS_RVALID   = data_valid;
         assign out_HLS_RFIFONUM = beat_nvalid[log2(RBUFF_DEPTH) : PAD_ALIGN] + (beat_nvalid[PAD_ALIGN-1:0] + data_nvalid) >> PAD_ALIGN;
-        assign ready_for_data   = ~data_valid_1 | in_HLS_RREADY;
+        assign ready_for_data   = ~data_valid | in_HLS_RREADY;
 
         assign next_pad         = beat_valid && ready_for_data;
         assign last_pad         = pad_oh[TOTAL_PADS - 1];
@@ -755,18 +748,12 @@ module example_a_m_axi_load
         always @(posedge ACLK)
         begin
             if (ARESET)
-                data_valid_1 <= 1'b0;
+                data_valid <= 1'b0;
             else if (ACLK_EN) begin
                 if (next_beat)
-                begin
-                    data_valid_1 <= 1'b1;
-                     @(posedge ACLK);
-                    data_valid_1 <= 1'b0;
-                 repeat(5)@(posedge ACLK);
-                 
-                end
+                    data_valid <= 1'b1;
                 else if (ready_for_data)
-                    data_valid_1 <= 1'b0;
+                    data_valid <= 1'b0;
             end
         end
 
@@ -1038,7 +1025,7 @@ module example_a_m_axi_store
 
         reg  [BUS_DATA_WIDTH - 1:0] data_buf;
         reg  [BUS_DATA_BYTES - 1:0] strb_buf;
-        reg                         data_valid_1;
+        reg                         data_valid;
 
         // Recording the offset of start & end address to align beats from data USER_DW < BUS_DW.
         example_a_m_axi_fifo #(
@@ -1068,11 +1055,11 @@ module example_a_m_axi_store
 
         assign out_AXI_WDATA  = data_buf;
         assign out_AXI_WSTRB  = strb_buf;
-        assign out_AXI_WVALID = data_valid_1;
+        assign out_AXI_WVALID = data_valid;
 
         assign next_wdata     = next_pad;
         assign next_offset    = last_beat && next_beat;
-        assign ready_for_data = ~data_valid_1 || in_AXI_WREADY;
+        assign ready_for_data = ~data_valid || in_AXI_WREADY;
 
         assign first_beat     = (len_cnt == 0) && offset_valid;
         assign last_beat      = (len_cnt == beat_len) && offset_valid;
@@ -1157,17 +1144,12 @@ module example_a_m_axi_store
         always @(posedge ACLK)
         begin
             if (ARESET)
-                data_valid_1 <= 1'b0;
+                data_valid <= 1'b0;
             else if (ACLK_EN) begin
                 if (next_beat)
-                 begin
-                    data_valid_1 <= 1'b1;
-                    
-                   repeat(5) @(posedge ACLK)
-                    data_valid_1 <= 1'b0;
-                   end
+                    data_valid <= 1'b1;
                 else if (ready_for_data)
-                    data_valid_1 <= 1'b0;
+                    data_valid <= 1'b0;
             end
         end
 
@@ -1194,7 +1176,7 @@ module example_a_m_axi_store
         wire                        ready_for_data;
         reg  [BUS_DATA_WIDTH - 1:0] data_buf;
         reg  [BUS_DATA_BYTES - 1:0] strb_buf;
-        reg                         data_valid_1;
+        reg                         data_valid;
 
         reg [SPLIT_ALIGN-1 : 0]     split_cnt;
 
@@ -1226,11 +1208,11 @@ module example_a_m_axi_store
 
         assign out_AXI_WDATA  = data_buf[BUS_DATA_WIDTH - 1:0];
         assign out_AXI_WSTRB  = strb_buf[BUS_DATA_BYTES - 1:0];
-        assign out_AXI_WVALID = data_valid_1;
+        assign out_AXI_WVALID = data_valid;
 
         assign next_wdata     = first_split;
         assign next_offset    = (len_cnt == beat_len) && offset_valid && last_split;
-        assign ready_for_data = ~data_valid_1 | in_AXI_WREADY;
+        assign ready_for_data = ~data_valid | in_AXI_WREADY;
 
         assign first_split    = (split_cnt == 0) && wdata_valid && offset_valid && ready_for_data;
         assign last_split     = (split_cnt == (TOTAL_SPLIT - 1)) && ready_for_data;
@@ -1285,12 +1267,12 @@ module example_a_m_axi_store
         always @(posedge ACLK)
         begin
             if (ARESET)
-                data_valid_1 <= 0;
+                data_valid <= 0;
             else if (ACLK_EN) begin
                 if (next_wdata)
-                    data_valid_1 <= 1;
+                    data_valid <= 1;
                 else if (~(first_split || next_split) && ready_for_data)
-                    data_valid_1 <= 0;
+                    data_valid <= 0;
             end
         end
     end
@@ -1598,7 +1580,7 @@ module example_a_m_axi_read
     // R channel
     wire [BUS_DATA_WIDTH-1:0]           tmp_data;
     wire                                tmp_last;
-    wire                                data_valid_1;
+    wire                                data_valid;
     wire                                data_ready;
     wire                                next_ctrl;
     wire                                need_rlast;
@@ -1820,7 +1802,7 @@ module example_a_m_axi_read
         .s_valid        (in_BUS_RVALID),
         .s_ready        (out_BUS_RREADY),
         .m_data         ({tmp_last, tmp_data}),
-        .m_valid        (data_valid_1),
+        .m_valid        (data_valid),
         .m_ready        (data_ready));
 
     example_a_m_axi_fifo #(
@@ -1857,12 +1839,12 @@ module example_a_m_axi_read
 
 //------------------------Body---------------------------
     assign next_ctrl      = in_HLS_RBUST_READY && need_rlast;
-    assign next_burst     = burst_end && data_valid_1 && data_ready;
+    assign next_burst     = burst_end && data_valid && data_ready;
 
     assign burst_end      = tmp_last === 1'b1;
     assign out_HLS_RLAST  = {burst_end, burst_end && last_burst && burst_valid};
     assign out_HLS_RDATA  = tmp_data;
-    assign out_HLS_RVALID = data_valid_1;
+    assign out_HLS_RVALID = data_valid;
     assign data_ready     = in_HLS_RREADY;
 //------------------------R channel end------------------
 endmodule
@@ -1993,7 +1975,7 @@ module example_a_m_axi_write
     wire                                next_sect;
     // W channel
     wire                                next_data;
-    wire                                data_valid_1;
+    wire                                data_valid;
     wire                                data_ready;
     reg  [BUS_DATA_WIDTH - 1:0]         data_buf;
     reg  [BUS_DATA_BYTES - 1:0]         strb_buf;
@@ -2241,9 +2223,9 @@ module example_a_m_axi_write
     assign out_BUS_WID      = 0;
     assign out_HLS_WREADY   = data_ready;
 
-    assign data_valid_1       = in_HLS_WVALID;
+    assign data_valid       = in_HLS_WVALID;
     assign data_ready       = burst_valid && ready_for_data;
-    assign next_data        = data_ready && data_valid_1;
+    assign next_data        = data_ready && data_valid;
     assign next_burst       = (len_cnt == burst_len) && next_data;
     assign ready_for_data   = ~WVALID_Dummy || WREADY_Dummy;
 

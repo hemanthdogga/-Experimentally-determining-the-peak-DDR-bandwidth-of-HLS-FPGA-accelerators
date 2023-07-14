@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="example_example,hls_ip_2022_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu7ev-ffvc1156-2-e,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=7.300000,HLS_SYN_LAT=176,HLS_SYN_TPT=none,HLS_SYN_MEM=4,HLS_SYN_DSP=0,HLS_SYN_FF=2087,HLS_SYN_LUT=3826,HLS_VERSION=2022_1}" *)
+(* CORE_GENERATION_INFO="example_example,hls_ip_2022_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu7ev-ffvc1156-2-e,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=7.300000,HLS_SYN_LAT=3098,HLS_SYN_TPT=none,HLS_SYN_MEM=4,HLS_SYN_DSP=0,HLS_SYN_FF=2140,HLS_SYN_LUT=3861,HLS_VERSION=2022_1}" *)
 
 module example (
         ap_clk,
@@ -313,14 +313,14 @@ reg   [61:0] trunc_ln_reg_188;
 reg   [61:0] trunc_ln1_reg_195;
 reg   [63:0] a_addr_reg_202;
 reg   [63:0] b_addr_reg_207;
-reg   [5:0] buffa_address0;
+reg   [9:0] buffa_address0;
 reg    buffa_ce0;
 reg    buffa_we0;
 reg   [31:0] buffa_d0;
 wire   [31:0] buffa_q0;
 reg    buffa_ce1;
 wire   [31:0] buffa_q1;
-reg   [5:0] buffb_address0;
+reg   [9:0] buffb_address0;
 reg    buffb_ce0;
 reg    buffb_we0;
 reg   [31:0] buffb_d0;
@@ -363,7 +363,7 @@ wire   [3:0] grp_example_Pipeline_1_fu_110_m_axi_a_ARREGION;
 wire   [0:0] grp_example_Pipeline_1_fu_110_m_axi_a_ARUSER;
 wire    grp_example_Pipeline_1_fu_110_m_axi_a_RREADY;
 wire    grp_example_Pipeline_1_fu_110_m_axi_a_BREADY;
-wire   [5:0] grp_example_Pipeline_1_fu_110_buffa_address0;
+wire   [9:0] grp_example_Pipeline_1_fu_110_buffa_address0;
 wire    grp_example_Pipeline_1_fu_110_buffa_ce0;
 wire    grp_example_Pipeline_1_fu_110_buffa_we0;
 wire   [31:0] grp_example_Pipeline_1_fu_110_buffa_d0;
@@ -403,7 +403,7 @@ wire   [3:0] grp_example_Pipeline_2_fu_118_m_axi_b_ARREGION;
 wire   [0:0] grp_example_Pipeline_2_fu_118_m_axi_b_ARUSER;
 wire    grp_example_Pipeline_2_fu_118_m_axi_b_RREADY;
 wire    grp_example_Pipeline_2_fu_118_m_axi_b_BREADY;
-wire   [5:0] grp_example_Pipeline_2_fu_118_buffb_address0;
+wire   [9:0] grp_example_Pipeline_2_fu_118_buffb_address0;
 wire    grp_example_Pipeline_2_fu_118_buffb_ce0;
 wire    grp_example_Pipeline_2_fu_118_buffb_we0;
 wire   [31:0] grp_example_Pipeline_2_fu_118_buffb_d0;
@@ -411,17 +411,17 @@ wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_ap_start;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_ap_done;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_ap_idle;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_ap_ready;
-wire   [5:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_address0;
+wire   [9:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_address0;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_ce0;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_we0;
 wire   [31:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_d0;
-wire   [5:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_address1;
+wire   [9:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_address1;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffa_ce1;
-wire   [5:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_address0;
+wire   [9:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_address0;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_ce0;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_we0;
 wire   [31:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_d0;
-wire   [5:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_address1;
+wire   [9:0] grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_address1;
 wire    grp_example_Pipeline_VITIS_LOOP_57_1_fu_126_buffb_ce1;
 wire    grp_example_Pipeline_4_fu_132_ap_start;
 wire    grp_example_Pipeline_4_fu_132_ap_done;
@@ -459,7 +459,7 @@ wire   [3:0] grp_example_Pipeline_4_fu_132_m_axi_a_ARREGION;
 wire   [0:0] grp_example_Pipeline_4_fu_132_m_axi_a_ARUSER;
 wire    grp_example_Pipeline_4_fu_132_m_axi_a_RREADY;
 wire    grp_example_Pipeline_4_fu_132_m_axi_a_BREADY;
-wire   [5:0] grp_example_Pipeline_4_fu_132_buffa_address0;
+wire   [9:0] grp_example_Pipeline_4_fu_132_buffa_address0;
 wire    grp_example_Pipeline_4_fu_132_buffa_ce0;
 wire    grp_example_Pipeline_5_fu_140_ap_start;
 wire    grp_example_Pipeline_5_fu_140_ap_done;
@@ -497,7 +497,7 @@ wire   [3:0] grp_example_Pipeline_5_fu_140_m_axi_b_ARREGION;
 wire   [0:0] grp_example_Pipeline_5_fu_140_m_axi_b_ARUSER;
 wire    grp_example_Pipeline_5_fu_140_m_axi_b_RREADY;
 wire    grp_example_Pipeline_5_fu_140_m_axi_b_BREADY;
-wire   [5:0] grp_example_Pipeline_5_fu_140_buffb_address0;
+wire   [9:0] grp_example_Pipeline_5_fu_140_buffb_address0;
 wire    grp_example_Pipeline_5_fu_140_buffb_ce0;
 reg    a_AWVALID;
 wire    a_AWREADY;
@@ -582,8 +582,8 @@ end
 
 example_buffa_RAM_AUTO_1R1W #(
     .DataWidth( 32 ),
-    .AddressRange( 50 ),
-    .AddressWidth( 6 ))
+    .AddressRange( 1024 ),
+    .AddressWidth( 10 ))
 buffa_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -599,8 +599,8 @@ buffa_U(
 
 example_buffa_RAM_AUTO_1R1W #(
     .DataWidth( 32 ),
-    .AddressRange( 50 ),
-    .AddressWidth( 6 ))
+    .AddressRange( 1024 ),
+    .AddressWidth( 10 ))
 buffb_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -714,7 +714,7 @@ example_example_Pipeline_2 grp_example_Pipeline_2_fu_118(
     .m_axi_b_ARQOS(grp_example_Pipeline_2_fu_118_m_axi_b_ARQOS),
     .m_axi_b_ARREGION(grp_example_Pipeline_2_fu_118_m_axi_b_ARREGION),
     .m_axi_b_ARUSER(grp_example_Pipeline_2_fu_118_m_axi_b_ARUSER),
-    .m_axi_b_RVALID(rvalid),
+    .m_axi_b_RVALID(b_RVALID),
     .m_axi_b_RREADY(grp_example_Pipeline_2_fu_118_m_axi_b_RREADY),
     .m_axi_b_RDATA(b_RDATA),
     .m_axi_b_RLAST(1'b0),
@@ -733,9 +733,6 @@ example_example_Pipeline_2 grp_example_Pipeline_2_fu_118(
     .buffb_we0(grp_example_Pipeline_2_fu_118_buffb_we0),
     .buffb_d0(grp_example_Pipeline_2_fu_118_buffb_d0)
 );
-wire rvalid;
-
-assign rvalid=1'b1;
 
 example_example_Pipeline_VITIS_LOOP_57_1 grp_example_Pipeline_VITIS_LOOP_57_1_fu_126(
     .ap_clk(ap_clk),
@@ -859,7 +856,7 @@ example_example_Pipeline_5 grp_example_Pipeline_5_fu_140(
     .m_axi_b_ARQOS(grp_example_Pipeline_5_fu_140_m_axi_b_ARQOS),
     .m_axi_b_ARREGION(grp_example_Pipeline_5_fu_140_m_axi_b_ARREGION),
     .m_axi_b_ARUSER(grp_example_Pipeline_5_fu_140_m_axi_b_ARUSER),
-    .m_axi_b_RVALID(rvalid),
+    .m_axi_b_RVALID(1'b0),
     .m_axi_b_RREADY(grp_example_Pipeline_5_fu_140_m_axi_b_RREADY),
     .m_axi_b_RDATA(32'd0),
     .m_axi_b_RLAST(1'b0),
@@ -1051,7 +1048,7 @@ b_m_axi_U(
     .ARQOS(m_axi_b_ARQOS),
     .ARREGION(m_axi_b_ARREGION),
     .ARUSER(m_axi_b_ARUSER),
-    .RVALID(rvalid),
+    .RVALID(m_axi_b_RVALID),
     .RREADY(m_axi_b_RREADY),
     .RDATA(m_axi_b_RDATA),
     .RLAST(m_axi_b_RLAST),
@@ -1180,7 +1177,7 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_state2_io) & (1'b1 == ap_CS_fsm_state2))) begin
-        a_ARLEN = 32'd50;
+        a_ARLEN = 32'd1024;
     end else if (((1'b1 == ap_CS_fsm_state10) | (1'b1 == ap_CS_fsm_state9))) begin
         a_ARLEN = grp_example_Pipeline_1_fu_110_m_axi_a_ARLEN;
     end else begin
@@ -1210,7 +1207,7 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_state11_io) & (1'b1 == ap_CS_fsm_state11))) begin
-        a_AWLEN = 32'd50;
+        a_AWLEN = 32'd1024;
     end else if (((1'b1 == ap_CS_fsm_state14) | (1'b1 == ap_CS_fsm_state13))) begin
         a_AWLEN = grp_example_Pipeline_4_fu_132_m_axi_a_AWLEN;
     end else begin
@@ -1394,7 +1391,7 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_state2_io) & (1'b1 == ap_CS_fsm_state2))) begin
-        b_ARLEN = 32'd50;
+        b_ARLEN = 32'd1024;
     end else if (((1'b1 == ap_CS_fsm_state10) | (1'b1 == ap_CS_fsm_state9))) begin
         b_ARLEN = grp_example_Pipeline_2_fu_118_m_axi_b_ARLEN;
     end else begin
@@ -1424,7 +1421,7 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_state11_io) & (1'b1 == ap_CS_fsm_state11))) begin
-        b_AWLEN = 32'd50;
+        b_AWLEN = 32'd1024;
     end else if (((1'b1 == ap_CS_fsm_state14) | (1'b1 == ap_CS_fsm_state13))) begin
         b_AWLEN = grp_example_Pipeline_5_fu_140_m_axi_b_AWLEN;
     end else begin

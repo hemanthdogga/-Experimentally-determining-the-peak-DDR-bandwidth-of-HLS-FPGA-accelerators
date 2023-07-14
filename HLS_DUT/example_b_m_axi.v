@@ -194,7 +194,7 @@ module example_b_m_axi
         .in_AXI_ARREADY          ( ARREADY_Dummy ),
         .in_AXI_RDATA            ( RDATA_Dummy ),
         .in_AXI_RLAST            ( RLAST_Dummy ),
-        .in_AXI_RVALID           ( 1'b1 ),
+        .in_AXI_RVALID           ( RVALID_Dummy ),
         .out_AXI_RREADY          ( RREADY_Dummy ),
         .out_AXI_RBURST_READY    ( RBURST_READY_Dummy),
         .in_HLS_ARADDR           ( I_ARADDR ),
@@ -202,7 +202,7 @@ module example_b_m_axi
         .in_HLS_ARVALID          ( I_ARVALID ),
         .out_HLS_ARREADY         ( I_ARREADY ),
         .out_HLS_RDATA           ( I_RDATA ),
-        .out_HLS_RVALID          ( 1'b1 ),
+        .out_HLS_RVALID          ( I_RVALID ),
         .in_HLS_RREADY           ( I_RREADY ),
         .out_HLS_RFIFONUM        ( I_RFIFONUM ));
 
@@ -302,7 +302,7 @@ module example_b_m_axi
         .in_BUS_RRESP             ( RRESP ),
         .in_BUS_RLAST             ( RLAST ),
         .in_BUS_RUSER             ( RUSER ),
-        .in_BUS_RVALID            ( 1'b1 ),
+        .in_BUS_RVALID            ( RVALID ),
         
         
         .out_BUS_RREADY           ( RREADY ),
@@ -310,7 +310,7 @@ module example_b_m_axi
         .out_HLS_ARREADY          ( ARREADY_Dummy ),
         .in_HLS_ARADDR            ( ARADDR_Dummy ),
         .in_HLS_ARLEN             ( ARLEN_Dummy ),
-        .out_HLS_RVALID           ( 1'b1 ),
+        .out_HLS_RVALID           ( RVALID_Dummy ),
         .in_HLS_RREADY            ( RREADY_Dummy ),
         .in_HLS_RBUST_READY       ( RBURST_READY_Dummy),
         .out_HLS_RDATA            ( RDATA_Dummy ),
@@ -519,7 +519,7 @@ module example_b_m_axi_load
         assign next_beat        = in_HLS_RREADY;
 
         assign out_HLS_RDATA    = beat_data[USER_DW-1 : 0];
-        assign out_HLS_RVALID   = 1'b1;
+        assign out_HLS_RVALID   = beat_valid;
         assign out_HLS_RFIFONUM = beat_nvalid;
 
     end
@@ -1696,12 +1696,12 @@ module example_b_m_axi_read
         always @(posedge ACLK)
         begin
             if (ARESET)
-                ARVALID_Dummy <= 1'b1;
+                ARVALID_Dummy <= 1'b0;
             else if (ACLK_EN) begin
                 if (next_sect)
                     ARVALID_Dummy <= 1'b1;
                 else if (~next_sect && in_BUS_ARREADY)
-                    ARVALID_Dummy <= 1'b1;
+                    ARVALID_Dummy <= 1'b0;
             end
         end
 
@@ -1779,7 +1779,7 @@ module example_b_m_axi_read
                 if (next_loop)
                     ARVALID_Dummy <= 1'b1;
                 else if (~next_loop && in_BUS_ARREADY)
-                    ARVALID_Dummy <= 1'b1;
+                    ARVALID_Dummy <= 1'b0;
             end
         end
 
@@ -1844,7 +1844,7 @@ module example_b_m_axi_read
     assign burst_end      = tmp_last === 1'b1;
     assign out_HLS_RLAST  = {burst_end, burst_end && last_burst && burst_valid};
     assign out_HLS_RDATA  = tmp_data;
-    assign out_HLS_RVALID = 1;
+    assign out_HLS_RVALID = data_valid;
     assign data_ready     = in_HLS_RREADY;
 //------------------------R channel end------------------
 endmodule

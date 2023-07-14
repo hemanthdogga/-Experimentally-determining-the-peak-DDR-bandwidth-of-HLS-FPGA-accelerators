@@ -38,18 +38,18 @@ input   ap_start;
 output   ap_done;
 output   ap_idle;
 output   ap_ready;
-output  [5:0] buffa_address0;
+output  [9:0] buffa_address0;
 output   buffa_ce0;
 output   buffa_we0;
 output  [31:0] buffa_d0;
-output  [5:0] buffa_address1;
+output  [9:0] buffa_address1;
 output   buffa_ce1;
 input  [31:0] buffa_q1;
-output  [5:0] buffb_address0;
+output  [9:0] buffb_address0;
 output   buffb_ce0;
 output   buffb_we0;
 output  [31:0] buffb_d0;
-output  [5:0] buffb_address1;
+output  [9:0] buffb_address1;
 output   buffb_ce1;
 input  [31:0] buffb_q1;
 
@@ -73,15 +73,15 @@ wire   [0:0] icmp_ln57_fu_78_p2;
 reg    ap_condition_exit_pp0_iter0_stage0;
 wire    ap_loop_exit_ready;
 reg    ap_ready_int;
-reg   [5:0] buffa_addr_reg_125;
+reg   [9:0] buffa_addr_reg_125;
 wire    ap_block_pp0_stage0_11001;
-reg   [5:0] buffb_addr_reg_131;
+reg   [9:0] buffb_addr_reg_131;
 wire   [63:0] i_cast_fu_90_p1;
 wire    ap_block_pp0_stage0;
-reg   [5:0] i_fu_32;
-wire   [5:0] add_ln57_fu_84_p2;
+reg   [10:0] i_fu_32;
+wire   [10:0] add_ln57_fu_84_p2;
 wire    ap_loop_init;
-reg   [5:0] ap_sig_allocacmp_i_1;
+reg   [10:0] ap_sig_allocacmp_i_1;
 reg    ap_done_reg;
 wire    ap_continue_int;
 reg    ap_done_int;
@@ -149,7 +149,7 @@ always @ (posedge ap_clk) begin
         if (((icmp_ln57_fu_78_p2 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1))) begin
             i_fu_32 <= add_ln57_fu_84_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            i_fu_32 <= 6'd0;
+            i_fu_32 <= 11'd0;
         end
     end
 end
@@ -203,7 +203,7 @@ end
 
 always @ (*) begin
     if (((ap_loop_init == 1'b1) & (1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        ap_sig_allocacmp_i_1 = 6'd0;
+        ap_sig_allocacmp_i_1 = 11'd0;
     end else begin
         ap_sig_allocacmp_i_1 = i_fu_32;
     end
@@ -268,7 +268,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln57_fu_84_p2 = (ap_sig_allocacmp_i_1 + 6'd1);
+assign add_ln57_fu_84_p2 = (ap_sig_allocacmp_i_1 + 11'd1);
 
 assign ap_CS_fsm_pp0_stage0 = ap_CS_fsm[32'd0];
 
@@ -302,6 +302,6 @@ assign buffb_d0 = (buffb_q1 + 32'd100);
 
 assign i_cast_fu_90_p1 = ap_sig_allocacmp_i_1;
 
-assign icmp_ln57_fu_78_p2 = ((ap_sig_allocacmp_i_1 == 6'd50) ? 1'b1 : 1'b0);
+assign icmp_ln57_fu_78_p2 = ((ap_sig_allocacmp_i_1 == 11'd1024) ? 1'b1 : 1'b0);
 
 endmodule //example_example_Pipeline_VITIS_LOOP_57_1

@@ -35,11 +35,11 @@ module `AUTOTB_TOP;
 
 parameter AUTOTB_TRANSACTION_NUM = 1;
 parameter PROGRESS_TIMEOUT = 10000000;
-parameter LATENCY_ESTIMATION = 176;
+parameter LATENCY_ESTIMATION = 3098;
 parameter LENGTH_a_offset = 1;
 parameter LENGTH_b_offset = 1;
-parameter LENGTH_a = 50;
-parameter LENGTH_b = 50;
+parameter LENGTH_a = 1024;
+parameter LENGTH_b = 1024;
 
 task read_token;
     input integer fp;
@@ -799,7 +799,7 @@ task write_binary;
              end
         end
     end
-endtask
+endtask;
 
 reg dump_tvout_finish_a;
 

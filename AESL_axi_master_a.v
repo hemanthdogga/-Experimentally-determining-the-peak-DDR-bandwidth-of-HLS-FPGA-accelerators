@@ -72,7 +72,7 @@ module AESL_axi_master_a (
  parameter   mem_page_num            =   32'd 3;
  parameter   FIFO_DEPTH_ADDR_WIDTH   =    32'd 32;
 parameter a_C_DATA_BITWIDTH = 32'd 32;
-parameter a_mem_depth = 32'd 50;
+parameter a_mem_depth = 32'd 1024;
 parameter ReadReqLatency = 32'd 1;
 parameter WriteReqLatency = 32'd 1;
 // Input and Output
@@ -706,9 +706,9 @@ initial begin : AR_request_proc
                         
                     RVALID_tmp <= 1;
                     //added code
-                   repeat(4) @(posedge clk);
+                   repeat(50) @(posedge clk);
                    RVALID_tmp <= 0;
-                   repeat(4) @(posedge clk);
+                   repeat(50) @(posedge clk);
                     RVALID_tmp <= 1;
                     //added code end
                     RID_tmp <= FIFO_AR_req_ID_tmp;
@@ -752,9 +752,9 @@ initial begin : AR_request_proc
                         endcase
                     RVALID_tmp <= 1;
                     //added code end
-                  repeat(4) @(posedge clk);
+                  repeat(50) @(posedge clk);
                    RVALID_tmp <= 0;
-                   repeat(4) @(posedge clk);
+                   repeat(50) @(posedge clk);
                     RVALID_tmp <= 1;
                     //added code end
                     RRESP_tmp <= 0;

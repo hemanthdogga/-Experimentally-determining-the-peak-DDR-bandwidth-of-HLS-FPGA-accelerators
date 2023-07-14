@@ -27,7 +27,7 @@ module example_control_s_axi
     output wire                          ARREADY,
     output wire [C_S_AXI_DATA_WIDTH-1:0] RDATA,
     output wire [1:0]                    RRESP,
-    output reg                          RVALID,
+    output wire                          RVALID,
     input  wire                          RREADY,
     output wire [63:0]                   a_offset,
     output wire [63:0]                   b_offset
@@ -137,25 +137,9 @@ end
 assign ARREADY = (rstate == RDIDLE);
 assign RDATA   = rdata;
 assign RRESP   = 2'b00;  // OKAY
-//assign RVALID  = (rstate == RDDATA);
+assign RVALID  = (rstate == RDDATA);
 assign ar_hs   = ARVALID & ARREADY;
 assign raddr   = ARADDR[ADDR_BITS-1:0];
-
-always @(posedge ACLK)
- begin
- RVALID=0;
- 
- repeat(5)  @(posedge ACLK);
-  RVALID=1;
-  
- repeat(2)  @(posedge ACLK);
-   RVALID=0;
-   
-  repeat(2)  @(posedge ACLK);
-   RVALID=1;
- 
- end
-
 
 // rstate
 always @(posedge ACLK) begin

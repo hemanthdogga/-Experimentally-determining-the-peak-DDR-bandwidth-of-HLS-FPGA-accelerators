@@ -121,7 +121,7 @@ input  [1:0] m_axi_b_BRESP;
 input  [0:0] m_axi_b_BID;
 input  [0:0] m_axi_b_BUSER;
 input  [61:0] sext_ln48;
-output  [5:0] buffb_address0;
+output  [9:0] buffb_address0;
 output   buffb_ce0;
 input  [31:0] buffb_q0;
 
@@ -151,10 +151,10 @@ reg   [31:0] buffb_load_reg_146;
 reg    ap_condition_exit_pp0_iter1_stage0;
 wire   [63:0] loop_index_cast_fu_105_p1;
 wire    ap_block_pp0_stage0_01001;
-reg   [5:0] loop_index_fu_50;
-wire   [5:0] empty_17_fu_99_p2;
+reg   [10:0] loop_index_fu_50;
+wire   [10:0] empty_17_fu_99_p2;
 wire    ap_loop_init;
-reg   [5:0] ap_sig_allocacmp_loop_index_load;
+reg   [10:0] ap_sig_allocacmp_loop_index_load;
 reg    ap_done_reg;
 wire    ap_continue_int;
 reg    ap_done_int;
@@ -234,7 +234,7 @@ always @ (posedge ap_clk) begin
         if (((exitcond6_fu_93_p2 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1))) begin
             loop_index_fu_50 <= empty_17_fu_99_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            loop_index_fu_50 <= 6'd0;
+            loop_index_fu_50 <= 11'd0;
         end
     end
 end
@@ -302,7 +302,7 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0) & (ap_loop_init == 1'b1))) begin
-        ap_sig_allocacmp_loop_index_load = 6'd0;
+        ap_sig_allocacmp_loop_index_load = 11'd0;
     end else begin
         ap_sig_allocacmp_loop_index_load = loop_index_fu_50;
     end
@@ -371,9 +371,9 @@ assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
 assign buffb_address0 = loop_index_cast_fu_105_p1;
 
-assign empty_17_fu_99_p2 = (ap_sig_allocacmp_loop_index_load + 6'd1);
+assign empty_17_fu_99_p2 = (ap_sig_allocacmp_loop_index_load + 11'd1);
 
-assign exitcond6_fu_93_p2 = ((ap_sig_allocacmp_loop_index_load == 6'd50) ? 1'b1 : 1'b0);
+assign exitcond6_fu_93_p2 = ((ap_sig_allocacmp_loop_index_load == 11'd1024) ? 1'b1 : 1'b0);
 
 assign loop_index_cast_fu_105_p1 = ap_sig_allocacmp_loop_index_load;
 

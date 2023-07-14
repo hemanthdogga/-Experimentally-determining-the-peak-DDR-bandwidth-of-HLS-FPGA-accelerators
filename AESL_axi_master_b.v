@@ -72,7 +72,7 @@ module AESL_axi_master_b (
  parameter   mem_page_num            =   32'd 3;
  parameter   FIFO_DEPTH_ADDR_WIDTH   =    32'd 32;
 parameter b_C_DATA_BITWIDTH = 32'd 32;
-parameter b_mem_depth = 32'd 50;
+parameter b_mem_depth = 32'd 1024;
 parameter ReadReqLatency = 32'd 1;
 parameter WriteReqLatency = 32'd 1;
 // Input and Output
@@ -859,7 +859,7 @@ task write_binary;
              end
         end
     end
-endtask
+endtask;
 
 //------------------------Read file------------------------ 
  

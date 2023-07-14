@@ -122,7 +122,7 @@ input  [1:0] m_axi_b_BRESP;
 input  [0:0] m_axi_b_BID;
 input  [0:0] m_axi_b_BUSER;
 input  [61:0] sext_ln48;
-output  [5:0] buffb_address0;
+output  [9:0] buffb_address0;
 output   buffb_ce0;
 output   buffb_we0;
 output  [31:0] buffb_d0;
@@ -150,15 +150,15 @@ reg    ap_ready_int;
 reg    b_blk_n_R;
 wire    ap_block_pp0_stage0;
 reg    ap_block_pp0_stage0_11001;
-reg   [5:0] loop_index6_load_reg_127;
-reg   [5:0] loop_index6_load_reg_127_pp0_iter1_reg;
+reg   [10:0] loop_index6_load_reg_127;
+reg   [10:0] loop_index6_load_reg_127_pp0_iter1_reg;
 reg   [31:0] b_addr_read_reg_136;
 reg    ap_condition_exit_pp0_iter1_stage0;
 wire   [63:0] loop_index6_cast_fu_111_p1;
-reg   [5:0] loop_index6_fu_48;
-wire   [5:0] empty_19_fu_94_p2;
+reg   [10:0] loop_index6_fu_48;
+wire   [10:0] empty_19_fu_94_p2;
 wire    ap_loop_init;
-reg   [5:0] ap_sig_allocacmp_loop_index6_load;
+reg   [10:0] ap_sig_allocacmp_loop_index6_load;
 reg    ap_done_reg;
 wire    ap_continue_int;
 reg    ap_done_int;
@@ -238,7 +238,7 @@ always @ (posedge ap_clk) begin
         if (((ap_enable_reg_pp0_iter0 == 1'b1) & (exitcond139_fu_88_p2 == 1'd0))) begin
             loop_index6_fu_48 <= empty_19_fu_94_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            loop_index6_fu_48 <= 6'd0;
+            loop_index6_fu_48 <= 11'd0;
         end
     end
 end
@@ -308,7 +308,7 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0) & (ap_loop_init == 1'b1))) begin
-        ap_sig_allocacmp_loop_index6_load = 6'd0;
+        ap_sig_allocacmp_loop_index6_load = 11'd0;
     end else begin
         ap_sig_allocacmp_loop_index6_load = loop_index6_fu_48;
     end
@@ -387,9 +387,9 @@ assign buffb_address0 = loop_index6_cast_fu_111_p1;
 
 assign buffb_d0 = b_addr_read_reg_136;
 
-assign empty_19_fu_94_p2 = (ap_sig_allocacmp_loop_index6_load + 6'd1);
+assign empty_19_fu_94_p2 = (ap_sig_allocacmp_loop_index6_load + 11'd1);
 
-assign exitcond139_fu_88_p2 = ((ap_sig_allocacmp_loop_index6_load == 6'd50) ? 1'b1 : 1'b0);
+assign exitcond139_fu_88_p2 = ((ap_sig_allocacmp_loop_index6_load == 11'd1024) ? 1'b1 : 1'b0);
 
 assign loop_index6_cast_fu_111_p1 = loop_index6_load_reg_127_pp0_iter1_reg;
 

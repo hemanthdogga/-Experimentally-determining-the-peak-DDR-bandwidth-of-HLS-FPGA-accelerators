@@ -583,7 +583,7 @@ task write_binary_a_offset;
              end
         end
     end
-endtask
+endtask;
 //------------------------Read file------------------------ 
  
 // Read data from file 
@@ -716,5 +716,5 @@ task write_binary_b_offset;
              end
         end
     end
-endtask
+endtask;
 endmodule
